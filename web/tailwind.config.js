@@ -49,9 +49,14 @@ module.exports = {
           900:"#025929",
         }
       },
+
       blur:{
-        full:"194px",
-      }
+        full:"194px"
+      },
+
+      fontSize:{
+        "5xl": "2.5rem"
+      },
     },
   },
   plugins: [],

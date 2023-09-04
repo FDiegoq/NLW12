@@ -25,14 +25,14 @@ export default function Home() {
             <Image src={nlw_logo} alt="NLW LOGO"/>
            </div>
 
-           <div>
-            <h1>Sua cápsula do tempo</h1>
-            <p>Colecione momentos marcantes da sua jornada e compartilhe (se quiser) com o mundo!</p>
+           <div className="max-w[420px] space-y-1">
+            <h1 className="mt-5 text-5xl font-bold leading-tight text-white">Sua cápsula do tempo</h1>
+            <p className="text-lg leading-relaxed">Colecione momentos marcantes da sua jornada e compartilhe (se quiser) com o mundo!</p>
            </div>
 
          </div>
 
-         <a href="" className="">CADASTRAR LEMBRANÇA</a>
+         <a href="" className="inline-block rounded-full bg-green-500 px-5 py-3 text-black font-bold hover:text-gray-50 hover:bg-green-700 transition-colors">CADASTRAR LEMBRANÇA</a>
 
 
 
